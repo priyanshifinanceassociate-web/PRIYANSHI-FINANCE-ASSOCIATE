@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Priyanshi Finance Associate</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f9f9f9; }
+    header { background:#0d47a1; color:#fff; padding:15px; text-align:center; position:relative; }
+    header h1 { margin:0; }
+    .lang-select { position:absolute; right:15px; top:15px; }
+    main { max-width:800px; margin:20px auto; padding:20px; background:#fff; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.15);}
+    label { display:block; margin-top:10px; }
+    input, select { width:100%; padding:8px; margin-top:5px; }
+    button { background:#0d47a1; color:#fff; padding:10px 20px; border:none; margin-top:15px; cursor:pointer; border-radius:5px; }
+    button:hover { background:#1565c0; }
+    .qr-section { display:none; text-align:center; margin-top:20px; }
+    .qr-section img { max-width:250px; margin:10px auto; }
+    footer { background:#eee; text-align:center; padding:15px; margin-top:20px; font-size:14px; }
+  </style>
+  <script>
+    const dict = {
+      en: {
+        title: "Priyanshi Finance Associate",
+        apply: "Loan Application Form",
+        name: "Full Name",
+        mobile: "Mobile Number",
+        amount: "Loan Amount",
+        type: "Loan Type",
+        upload: "Upload Documents",
+        fees: "Service Fees: ₹3499 (document collection, home visit, CIBIL report, fast loan, 24/7 support)",
+        pay: "Proceed to Payment",
+        payNow: "Scan QR Code
